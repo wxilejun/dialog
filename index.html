@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>自定义对话框</title>
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    <span class="banquan" style="display:block;font-size:2rem;font-weight:bold;text-shadow:1px 1px 1px #dddddd;">页面由XLJ开发，可以基于MIT协议使用和修改，但请勿修改其版权</span>
+    <a href="http://xlj0.com" style="text-decoration:none;color:#464141;font-weight:bold;display:block;margin:10px;">前往博客</a>
+    <span class="button" id="buttonshow">显示对话框</span>
+
+    <div class="alert-dialog" id="alert-dialog">
+        <div class="header">
+            <span id="alert-title">标题</span>
+        </div>
+        <div class="main">
+            <span id="alert-neirong">内容</span>
+        </div>
+        <div class="footer" onclick="dismiss()">
+            <span id="alert-dismiss">确定</span>
+        </div>
+    </div>
+
+    <script src="js/min.js"></script>
+</body>
+</html>
